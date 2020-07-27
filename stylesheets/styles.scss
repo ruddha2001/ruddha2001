@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+$darker-background-color: #232126;
+$lighter-background-color: #282932;
+$primary-font-color: #e6e6d4;
+$emphasis-font-color: #f0cc16;
+$terminal-font-color: #079b29;
+
+html {
+  scroll-behavior: smooth;
+
+  body {
+    overflow: hidden;
+    background-color: $lighter-background-color;
+    color: $primary-font-color;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+
+    .navbar {
+      background-color: $darker-background-color !important;
+    }
+
+    .content-container {
+      .row {
+        margin: 0 !important;
+        width: 100% !important;
+      }
+
+      .fs-container {
+        min-height: 100vh !important;
+        width: 100% !important;
+      }
+
+      #home {
+        .welcome-content {
+          text-align: center;
+          width: 100%;
+          margin-top: 200px;
+        }
+
+        h1 {
+          font-size: 4.5rem;
+        }
+
+        h5 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+          margin-top: 25px;
+        }
+
+        #skill-list {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  .emphasis-font-color {
+    color: $emphasis-font-color !important;
+  }
+
+  .terminal-font-color {
+    color: $terminal-font-color !important;
+  }
+}

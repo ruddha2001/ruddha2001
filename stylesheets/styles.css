@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  overflow: hidden;
+  background-color: #282932;
+  color: #e6e6d4;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+html body .navbar {
+  background-color: #232126 !important;
+}
+html body .content-container .row {
+  margin: 0 !important;
+  width: 100% !important;
+}
+html body .content-container .fs-container {
+  min-height: 100vh !important;
+  width: 100% !important;
+}
+html body .content-container #home .welcome-content {
+  text-align: center;
+  width: 100%;
+  margin-top: 200px;
+}
+html body .content-container #home h1 {
+  font-size: 4.5rem;
+}
+html body .content-container #home h5 {
+  font-size: 1.8rem;
+}
+html body .content-container #home p {
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+html body .content-container #home #skill-list {
+  opacity: 0;
+}
+html .emphasis-font-color {
+  color: #f0cc16 !important;
+}
+html .terminal-font-color {
+  color: #079b29 !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
