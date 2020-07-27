@@ -3,7 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 html body {
-  overflow: hidden;
   background-color: #282932;
   color: #e6e6d4;
   font-weight: 600;
@@ -24,6 +23,11 @@ html body .content-container #home .welcome-content {
   text-align: center;
   width: 100%;
   margin-top: 200px;
+}
+@media (max-width: 750px) {
+  html body .content-container #home .welcome-content {
+    margin-top: 130px;
+  }
 }
 html body .content-container #home h1 {
   font-size: 4.5rem;
