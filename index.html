@@ -79,6 +79,52 @@
           <div class="btn btn-lg btn-outline-warning mt-4">Let's Connect</div>
           <br />
           <div class="btn btn-outline-danger mt-2">Learn More</div>
+          <div class="mt-4">
+            <a
+              href="https://facebook.com/ruddha2001"
+              class="social-hyperlink"
+              target="_blank"
+              ><i
+                class="fab fa-facebook-square social-icon"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Befriend me in Facebook"
+              ></i
+            ></a>
+            <a
+              href="https://github.com/ruddha2001"
+              class="social-hyperlink"
+              target="_blank"
+              ><i
+                class="fab fa-github-square social-icon"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Fork me in Github"
+              ></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/ruddha2001"
+              class="social-hyperlink"
+              target="_blank"
+              ><i
+                class="fab fa-linkedin social-icon"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Let's Connect via LinkedIn"
+              ></i
+            ></a>
+            <a
+              href="https://medium.com/@ruddha2001"
+              class="social-hyperlink"
+              target="_blank"
+              ><i
+                class="fab fa-medium social-icon"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Read my blogs in Medium"
+              ></i
+            ></a>
+          </div>
         </div>
       </div>
     </div>
@@ -97,9 +143,17 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/b6373a4a93.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/text-animations.js"></script>
     <script>
       $(document).ready(function () {
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+        });
         innerHTMLTimeoutAddition(
           "innerHTMLTimeoutAddition-web-dev",
           "skill-list",
