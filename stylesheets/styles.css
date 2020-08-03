@@ -19,6 +19,11 @@ html body .content-container .fs-container {
   min-height: 100vh !important;
   width: 100% !important;
 }
+html body .content-container .h-line {
+  border-bottom: 2px solid #e6e6d4;
+  width: 100%;
+  height: 10px;
+}
 html body .content-container #home .welcome-content {
   text-align: center;
   width: 100%;
@@ -49,6 +54,33 @@ html body .content-container #home .social-icon {
   font-size: 1.5rem;
   padding-left: 5px;
   padding-right: 5px;
+}
+html body .content-container #contact .contact-content {
+  padding-top: 80px;
+}
+html body .content-container #contact .contact-form {
+  margin-top: 50px;
+  border: 1px dotted #f0cc16;
+  border-radius: 20px;
+  padding: 40px;
+}
+html body .content-container #contact .contact-form form {
+  text-align: center;
+}
+html body .content-container #contact .contact-form form label {
+  color: #079b29;
+  text-align: center;
+  width: 100%;
+}
+html body .content-container #contact .contact-form form input,
+html body .content-container #contact .contact-form form textarea {
+  background-color: transparent !important;
+  color: #f0cc16 !important;
+  text-align: center;
+}
+html body .content-container #contact .contact-form form small {
+  text-align: center;
+  width: 100%;
 }
 html .emphasis-font-color {
   color: #f0cc16 !important;
