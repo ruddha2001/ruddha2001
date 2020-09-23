@@ -5,7 +5,7 @@ html {
 html body {
   background-color: #282932;
   color: #e6e6d4;
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Ubuntu", sans-serif;
 }
 html body .navbar {
@@ -55,11 +55,28 @@ html body .content-container #home .social-icon {
   padding-left: 5px;
   padding-right: 5px;
 }
+html body .content-container #about .about-content {
+  padding-top: 80px;
+}
+html body .content-container #about ol {
+  list-style-type: disc;
+  column-count: 2;
+}
+html body .content-container #about ol li {
+  width: fit-content !important;
+}
+html body .content-container #about img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
 html body .content-container #contact .contact-content {
   padding-top: 80px;
 }
 html body .content-container #contact .contact-form {
   margin-top: 50px;
+  margin-bottom: 30px;
   border: 1px dotted #f0cc16;
   border-radius: 20px;
   padding: 40px;

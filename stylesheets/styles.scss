@@ -12,7 +12,7 @@ html {
   body {
     background-color: $lighter-background-color;
     color: $primary-font-color;
-    font-weight: 600;
+    font-weight: 400;
     font-family: "Ubuntu", sans-serif;
 
     .navbar {
@@ -77,6 +77,28 @@ html {
         }
       }
 
+      #about {
+        .about-content {
+          padding-top: 80px;
+        }
+
+        ol {
+          list-style-type: disc;
+          column-count: 2;
+
+          li {
+            width: fit-content !important;
+          }
+        }
+
+        img {
+          width: 60%;
+          display: block;
+          margin: auto;
+          border-radius: 20px;
+        }
+      }
+
       #contact {
         .contact-content {
           padding-top: 80px;
@@ -84,6 +106,7 @@ html {
 
         .contact-form {
           margin-top: 50px;
+          margin-bottom: 30px;
           border: 1px dotted $emphasis-font-color;
           border-radius: 20px;
           padding: 40px;
