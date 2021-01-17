@@ -18,6 +18,7 @@
 <ul>
 <li>Formdeck (by SRMKZILLA)</li>
   <li><a href="https://billboard.srmkzilla.net">Billboard (by SRMKZILLA)</a></li>
+  <li><a href="https://github.com/AlexaSRM/alexa-dev-mailer">Alexa Mailer (by Alexa Developers SRM)</a></li>
 <li>Papyrus - A simple CLI notepad with cross device support</li>
 </ul>
 </p>
